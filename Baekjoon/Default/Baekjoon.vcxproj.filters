@@ -10,36 +10,21 @@
     <Filter Include="01. Solved">
       <UniqueIdentifier>{68736eb8-b5a2-4021-a526-e0ea03e6f577}</UniqueIdentifier>
     </Filter>
-    <Filter Include="01. Solved\Problems">
-      <UniqueIdentifier>{131f257a-4608-4b0f-9a62-51495a18dfa2}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Baekjoon.cpp">
       <Filter>98. Default</Filter>
     </ClCompile>
-    <ClCompile Include="..\Private\SolvedMaster.cpp">
-      <Filter>01. Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Private\Problem_0000.cpp">
-      <Filter>01. Solved\Problems</Filter>
-    </ClCompile>
     <ClCompile Include="..\Private\Problem_1094.cpp">
-      <Filter>01. Solved\Problems</Filter>
+      <Filter>01. Solved</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h">
       <Filter>99. Header</Filter>
     </ClInclude>
-    <ClInclude Include="..\Public\SolvedMaster.h">
-      <Filter>01. Solved</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Public\Problem_0000.h">
-      <Filter>01. Solved\Problems</Filter>
-    </ClInclude>
     <ClInclude Include="..\Public\Problem_1094.h">
-      <Filter>01. Solved\Problems</Filter>
+      <Filter>01. Solved</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
