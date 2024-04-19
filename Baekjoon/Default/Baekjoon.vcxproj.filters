@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{7c8c82f5-e019-486a-9955-5ffdd8e77359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{1bb8da29-1f63-4a15-92ff-e930b97eec70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Solved">
+      <UniqueIdentifier>{68736eb8-b5a2-4021-a526-e0ea03e6f577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Solved\Problems">
+      <UniqueIdentifier>{131f257a-4608-4b0f-9a62-51495a18dfa2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Baekjoon.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SolvedMaster.cpp">
+      <Filter>01. Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_0000.cpp">
+      <Filter>01. Solved\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_1094.cpp">
+      <Filter>01. Solved\Problems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\Baekjoon_Define.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SolvedMaster.h">
+      <Filter>01. Solved</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_0000.h">
+      <Filter>01. Solved\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1094.h">
+      <Filter>01. Solved\Problems</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
