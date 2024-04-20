@@ -18,12 +18,24 @@
     <ClCompile Include="..\Private\Problem_1094.cpp">
       <Filter>01. Solved</Filter>
     </ClCompile>
+    <ClCompile Include="..\Private\Problem_1526.cpp">
+      <Filter>01. Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_2456.cpp">
+      <Filter>01. Solved</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h">
       <Filter>99. Header</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_1094.h">
+      <Filter>01. Solved</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1526.h">
+      <Filter>01. Solved</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_2456.h">
       <Filter>01. Solved</Filter>
     </ClInclude>
   </ItemGroup>
