@@ -17,7 +17,7 @@ typedef struct tagCandidate
 	int iTwo = { };
 } CAND;
 
-void CProblem_2456::Solve_Problem()
+int CProblem_2456::Solve_Problem()
 {
 	vector<CAND> vecContainer;
 
@@ -67,4 +67,6 @@ void CProblem_2456::Solve_Problem()
 		cout << "0 " << vecContainer[0].iScore;
 	else
 		cout << vecContainer[0].iNumber << " " << vecContainer[0].iScore;
+
+	return 0;
 }

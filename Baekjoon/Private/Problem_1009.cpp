@@ -5,7 +5,7 @@ using namespace std;
 #include <vector>
 #include <iostream>
 
-void CProblem_1009::Solve_Problem()
+int CProblem_1009::Solve_Problem()
 {
 	int iCase = { };
 	cin >> iCase;
@@ -30,4 +30,6 @@ void CProblem_1009::Solve_Problem()
 		int iUnit = (iB - 1) % vecContainer.size();
 		cout << ((vecContainer[iUnit] == 0) ? 10 : vecContainer[iUnit]) << '\n';
 	}
+
+	return 0;
 }

@@ -132,6 +132,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Private\Problem_1009.cpp" />
+    <ClCompile Include="..\Private\Problem_1236.cpp" />
     <ClCompile Include="..\Private\Problem_1251.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -151,6 +152,7 @@
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h" />
     <ClInclude Include="..\Public\Problem_1009.h" />
+    <ClInclude Include="..\Public\Problem_1236.h" />
     <ClInclude Include="..\Public\Problem_1251.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>

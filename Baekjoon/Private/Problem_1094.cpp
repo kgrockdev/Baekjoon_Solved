@@ -4,7 +4,7 @@ using namespace std;
 
 #include <iostream>
 
-void CProblem_1094::Solve_Problem()
+int CProblem_1094::Solve_Problem()
 {
 	int iStick = { };
 	cin >> iStick;
@@ -24,4 +24,6 @@ void CProblem_1094::Solve_Problem()
 	}
 
 	cout << iBit;
+
+	return 0;
 }
