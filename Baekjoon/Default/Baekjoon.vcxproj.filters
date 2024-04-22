@@ -10,81 +10,99 @@
     <Filter Include="01. Solved">
       <UniqueIdentifier>{68736eb8-b5a2-4021-a526-e0ea03e6f577}</UniqueIdentifier>
     </Filter>
+    <Filter Include="01. Solved\1000">
+      <UniqueIdentifier>{b807f30e-6357-46a2-a3ac-37235ded1578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Solved\2000">
+      <UniqueIdentifier>{5e5eabee-916d-4255-827b-193c3ab170b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Solved\7000">
+      <UniqueIdentifier>{4d249526-8a58-466f-8a69-55e7b541bc7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Solved\17000">
+      <UniqueIdentifier>{086287c2-8e70-4b1c-bc17-68a94209334d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Baekjoon.cpp">
       <Filter>98. Default</Filter>
     </ClCompile>
-    <ClCompile Include="..\Private\Problem_1094.cpp">
-      <Filter>01. Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Private\Problem_1526.cpp">
-      <Filter>01. Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Private\Problem_2456.cpp">
-      <Filter>01. Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Private\Problem_1251.cpp">
-      <Filter>01. Solved</Filter>
-    </ClCompile>
     <ClCompile Include="..\Private\Problem_1009.cpp">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_1094.cpp">
+      <Filter>01. Solved\1000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_1236.cpp">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_1251.cpp">
+      <Filter>01. Solved\1000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_1268.cpp">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_1526.cpp">
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_1620.cpp">
+      <Filter>01. Solved\1000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_1764.cpp">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\1000</Filter>
     </ClCompile>
-    <ClCompile Include="Problem_17219.cpp">
-      <Filter>01. Solved</Filter>
+    <ClCompile Include="..\Private\Problem_2456.cpp">
+      <Filter>01. Solved\2000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_2776.cpp">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\2000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_7785.cpp">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\7000</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem_17219.cpp">
+      <Filter>01. Solved\17000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h">
       <Filter>99. Header</Filter>
     </ClInclude>
-    <ClInclude Include="..\Public\Problem_1094.h">
-      <Filter>01. Solved</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Public\Problem_1526.h">
-      <Filter>01. Solved</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Public\Problem_2456.h">
-      <Filter>01. Solved</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Public\Problem_1251.h">
-      <Filter>01. Solved</Filter>
-    </ClInclude>
     <ClInclude Include="..\Public\Problem_1009.h">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\1000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1094.h">
+      <Filter>01. Solved\1000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_1236.h">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\1000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1251.h">
+      <Filter>01. Solved\1000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_1268.h">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\1000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1526.h">
+      <Filter>01. Solved\1000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1620.h">
+      <Filter>01. Solved\1000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_1764.h">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\1000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_2776.h">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\2000</Filter>
     </ClInclude>
-    <ClInclude Include="Problem_17219.h">
-      <Filter>01. Solved</Filter>
+    <ClInclude Include="..\Public\Problem_2456.h">
+      <Filter>01. Solved\2000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_7785.h">
-      <Filter>01. Solved</Filter>
+      <Filter>01. Solved\7000</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem_17219.h">
+      <Filter>01. Solved\17000</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
