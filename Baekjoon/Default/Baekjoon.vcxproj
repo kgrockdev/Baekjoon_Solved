@@ -154,6 +154,7 @@
     <ClCompile Include="..\Private\Problem_1764.cpp" />
     <ClCompile Include="..\Private\Problem_2456.cpp" />
     <ClCompile Include="..\Private\Problem_25206.cpp" />
+    <ClCompile Include="..\Private\Problem_2747.cpp" />
     <ClCompile Include="..\Private\Problem_2776.cpp" />
     <ClCompile Include="..\Private\Problem_7785.cpp" />
     <ClCompile Include="Baekjoon.cpp" />
@@ -184,6 +185,7 @@
     <ClInclude Include="..\Public\Problem_1764.h" />
     <ClInclude Include="..\Public\Problem_2456.h" />
     <ClInclude Include="..\Public\Problem_25206.h" />
+    <ClInclude Include="..\Public\Problem_2747.h" />
     <ClInclude Include="..\Public\Problem_2776.h" />
     <ClInclude Include="..\Public\Problem_7785.h" />
     <ClInclude Include="Problem_17219.h" />

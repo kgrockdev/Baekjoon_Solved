@@ -6,6 +6,7 @@
 // #include "Problem_1251.h"
 #include "Problem_1764.h"
 #include "Problem_2456.h"
+#include "Problem_2747.h"
 #include "Problem_2776.h"
 #include "Problem_7785.h"
 #include "Problem_17219.h"
