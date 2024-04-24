@@ -11,6 +11,7 @@
 #include "Problem_2748.h"
 #include "Problem_2776.h"
 #include "Problem_7785.h"
+#include "Problem_9655.h"
 #include "Problem_10826.h"
 #include "Problem_10870.h"
 #include "Problem_17219.h"
