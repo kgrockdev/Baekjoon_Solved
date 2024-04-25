@@ -16,7 +16,7 @@ typedef struct tagStudentInfo
 	int iForth = { };
 	int iFifth = { };
 
-	int iScore = { 0 };
+	vector<int> vecFriends;
 } STD_INFO;
 
 int CProblem_1268::Solve_Problem()
@@ -26,37 +26,37 @@ int CProblem_1268::Solve_Problem()
 	int iNumStudent = { };
 	cin >> iNumStudent;
 
-	int iScoreArray[5][10] = { };
-	for (int iStudent = 0; iStudent < 5; ++iStudent)
+	for (int iStudent = 0; iStudent < iNumStudent; ++iStudent)
 	{
 		STD_INFO tInfo = { };
 		cin >> tInfo.iFirst >> tInfo.iSecond >> tInfo.iThird >> tInfo.iForth >> tInfo.iFifth;
-
-		iScoreArray[0][tInfo.iFirst]	+= 1;
-		iScoreArray[1][tInfo.iSecond]	+= 1;
-		iScoreArray[2][tInfo.iThird]	+= 1;
-		iScoreArray[3][tInfo.iForth]	+= 1;
-		iScoreArray[4][tInfo.iFifth]	+= 1;
 
 		tInfo.iStudentIdx = iStudent + 1;
 		vecStudents.push_back(tInfo);
 	}
 
-	for (int iStudent = 0; iStudent < 5; ++iStudent)
+	for (auto& itSelf : vecStudents)
 	{
-		vecStudents[iStudent].iScore += iScoreArray[0][vecStudents[iStudent].iFirst];
-		vecStudents[iStudent].iScore += iScoreArray[1][vecStudents[iStudent].iSecond];
-		vecStudents[iStudent].iScore += iScoreArray[2][vecStudents[iStudent].iThird];
-		vecStudents[iStudent].iScore += iScoreArray[3][vecStudents[iStudent].iForth];
-		vecStudents[iStudent].iScore += iScoreArray[4][vecStudents[iStudent].iFifth];
+		for (auto& itOther : vecStudents)
+		{
+			if (itSelf.iStudentIdx == itOther.iStudentIdx)
+				continue;
+
+			if ((itSelf.iFirst == itOther.iFirst) ||
+				(itSelf.iSecond == itOther.iSecond) ||
+				(itSelf.iThird == itOther.iThird) ||
+				(itSelf.iForth == itOther.iForth) ||
+				(itSelf.iFifth == itOther.iFifth))
+				itSelf.vecFriends.push_back(itOther.iStudentIdx);
+		}
 	}
 
-	sort(vecStudents.begin(), vecStudents.end(), [](STD_INFO tStdInfoA, STD_INFO tStdInfoB) 
+	sort(vecStudents.begin(), vecStudents.end(), [](STD_INFO tStdInfoA, STD_INFO tStdInfoB)
 		{
-			if (tStdInfoA.iScore == tStdInfoB.iScore)
+			if (tStdInfoA.vecFriends.size() == tStdInfoB.vecFriends.size())
 				return tStdInfoA.iStudentIdx < tStdInfoB.iStudentIdx;
 			else
-				return tStdInfoA.iScore > tStdInfoB.iScore;
+				return tStdInfoA.vecFriends.size() > tStdInfoB.vecFriends.size();
 		});
 
 	cout << vecStudents[0].iStudentIdx << endl;
