@@ -18,6 +18,8 @@
 #include "Problem_7568.h"
 #include "Problem_7785.h"
 #include "Problem_9655.h"
+#include "Problem_9656.h"
 #include "Problem_10826.h"
 #include "Problem_10870.h"
 #include "Problem_17219.h"
+#include "Problem_18115.h"

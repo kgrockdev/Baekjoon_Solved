@@ -161,6 +161,7 @@
     </ClCompile>
     <ClCompile Include="..\Private\Problem_1764.cpp" />
     <ClCompile Include="..\Private\Problem_1769.cpp" />
+    <ClCompile Include="..\Private\Problem_18115.cpp" />
     <ClCompile Include="..\Private\Problem_2456.cpp" />
     <ClCompile Include="..\Private\Problem_25206.cpp" />
     <ClCompile Include="..\Private\Problem_2596.cpp" />
@@ -172,6 +173,7 @@
     <ClCompile Include="..\Private\Problem_7568.cpp" />
     <ClCompile Include="..\Private\Problem_7785.cpp" />
     <ClCompile Include="..\Private\Problem_9655.cpp" />
+    <ClCompile Include="..\Private\Problem_9656.cpp" />
     <ClCompile Include="Baekjoon.cpp" />
     <ClCompile Include="Problem_17219.cpp" />
   </ItemGroup>
@@ -203,6 +205,7 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_1764.h" />
     <ClInclude Include="..\Public\Problem_1769.h" />
+    <ClInclude Include="..\Public\Problem_18115.h" />
     <ClInclude Include="..\Public\Problem_2456.h" />
     <ClInclude Include="..\Public\Problem_25206.h" />
     <ClInclude Include="..\Public\Problem_2596.h" />
@@ -214,6 +217,7 @@
     <ClInclude Include="..\Public\Problem_7568.h" />
     <ClInclude Include="..\Public\Problem_7785.h" />
     <ClInclude Include="..\Public\Problem_9655.h" />
+    <ClInclude Include="..\Public\Problem_9656.h" />
     <ClInclude Include="Problem_17219.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
