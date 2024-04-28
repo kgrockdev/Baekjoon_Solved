@@ -135,6 +135,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Private\Problem_1003.cpp" />
     <ClCompile Include="..\Private\Problem_1009.cpp" />
     <ClCompile Include="..\Private\Problem_1018.cpp" />
     <ClCompile Include="..\Private\Problem_1076.cpp" />
@@ -181,6 +182,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h" />
+    <ClInclude Include="..\Public\Problem_1003.h" />
     <ClInclude Include="..\Public\Problem_1009.h" />
     <ClInclude Include="..\Public\Problem_1018.h" />
     <ClInclude Include="..\Public\Problem_1076.h" />
