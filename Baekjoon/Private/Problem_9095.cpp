@@ -38,7 +38,7 @@ int CProblem_9095::Solve_Problem()
 
 	arrContainer9095[1] = 1;
 	arrContainer9095[2] = 2;
-	arrContainer9095[3] = 3;
+	arrContainer9095[3] = 4;
 
 	int iNumTC = { };
 	cin >> iNumTC;

@@ -1,3 +1,5 @@
+#pragma region Solved
+/*
 #include "Problem_1003.h"
 #include "Problem_1009.h"
 #include "Problem_1018.h"
@@ -8,7 +10,6 @@
 #include "Problem_1463.h"
 #include "Problem_1475.h"
 #include "Problem_1550.h"
-// #include "Problem_1251.h"
 #include "Problem_1764.h"
 #include "Problem_1769.h"
 #include "Problem_2456.h"
@@ -29,3 +30,8 @@
 #include "Problem_11050.h"
 #include "Problem_17219.h"
 #include "Problem_18115.h"
+*/
+#pragma endregion
+
+// #include "Problem_1251.h"
+#include "Problem_14916.h"

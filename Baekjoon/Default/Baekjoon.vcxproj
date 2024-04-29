@@ -153,6 +153,7 @@
     <ClCompile Include="..\Private\Problem_1268.cpp" />
     <ClCompile Include="..\Private\Problem_1463.cpp" />
     <ClCompile Include="..\Private\Problem_1475.cpp" />
+    <ClCompile Include="..\Private\Problem_14916.cpp" />
     <ClCompile Include="..\Private\Problem_1526.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -203,6 +204,7 @@
     <ClInclude Include="..\Public\Problem_1268.h" />
     <ClInclude Include="..\Public\Problem_1463.h" />
     <ClInclude Include="..\Public\Problem_1475.h" />
+    <ClInclude Include="..\Public\Problem_14916.h" />
     <ClInclude Include="..\Public\Problem_1526.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
