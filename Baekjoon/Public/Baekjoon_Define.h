@@ -21,6 +21,7 @@
 #include "Problem_4158.h"
 #include "Problem_7568.h"
 #include "Problem_7785.h"
+#include "Problem_9095.h"
 #include "Problem_9655.h"
 #include "Problem_9656.h"
 #include "Problem_10826.h"
