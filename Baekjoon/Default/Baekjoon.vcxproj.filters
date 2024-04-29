@@ -40,8 +40,11 @@
     <Filter Include="01. Solved\11000">
       <UniqueIdentifier>{46e1aeaa-de03-4022-b03e-b3de9935b0ba}</UniqueIdentifier>
     </Filter>
-    <Filter Include="01. Solved\14916">
+    <Filter Include="01. Solved\14000">
       <UniqueIdentifier>{b6cf2464-1345-4088-88c4-a86528260697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Solved\13000">
+      <UniqueIdentifier>{2dbdf4d6-0efc-44e8-b2ed-55f97b050230}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -151,7 +154,10 @@
       <Filter>01. Solved\9000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_14916.cpp">
-      <Filter>01. Solved\14916</Filter>
+      <Filter>01. Solved\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_13699.cpp">
+      <Filter>01. Solved\13000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -261,7 +267,10 @@
       <Filter>01. Solved\9000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_14916.h">
-      <Filter>01. Solved\14916</Filter>
+      <Filter>01. Solved\14000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_13699.h">
+      <Filter>01. Solved\13000</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
