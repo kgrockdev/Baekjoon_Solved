@@ -16,9 +16,7 @@ unsigned long long Calc_13699(int iNum)
     {
         unsigned long long ullSrc = { };
         for (int iIndex = 0; iIndex < iNum; ++iIndex)
-        {
-
-        }
+            ullSrc += Calc_13699(iIndex) * Calc_13699(iNum - iIndex - 1);
 
         mapContainer13699.emplace(iNum, ullSrc);
         return ullSrc;
