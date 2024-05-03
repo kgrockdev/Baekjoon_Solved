@@ -2,5 +2,5 @@
 
 int main()
 {
-	CProblem_11726::Solve_Problem();
+	CProblem_11727::Solve_Problem();
 }
