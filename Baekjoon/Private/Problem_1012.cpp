@@ -4,7 +4,6 @@ using namespace std;
 
 #include <set>
 #include <list>
-// #include <vector>
 #include <iostream>
 
 int CProblem_1012::Solve_Problem()
