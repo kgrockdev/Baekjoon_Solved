@@ -39,6 +39,7 @@
 #include "Problem_10870.h"
 #include "Problem_11047.h"
 #include "Problem_11050.h"
+#include "Problem_11724.h"
 #include "Problem_11726.h"
 #include "Problem_11727.h"
 #include "Problem_13699.h"
@@ -52,4 +53,4 @@
 #pragma endregion
 
 // #include "Problem_1251.h"
-#include "Problem_11724.h"
+#include "Problem_2178.h"
