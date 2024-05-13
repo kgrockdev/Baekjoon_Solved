@@ -34,6 +34,7 @@
 #include "Problem_9095.h"
 #include "Problem_9375.h"
 #include "Problem_9461.h"
+#include "Problem_9625.h"
 #include "Problem_9655.h"
 #include "Problem_9656.h"
 #include "Problem_10826.h"
@@ -54,4 +55,4 @@
 #pragma endregion
 
 // #include "Problem_1251.h"
-#include "Problem_9625.h"
+#include "Problem_2775.h"
