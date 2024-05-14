@@ -32,9 +32,9 @@ bool Calc_Func_9656(int iQuery)
 
 int CProblem_9656::Solve_Problem()
 {
-	mapMemo9656.emplace(1, SK);
-	mapMemo9656.emplace(2, CY);
-	mapMemo9656.emplace(3, SK);
+	mapMemo9656.emplace(1, CY);
+	mapMemo9656.emplace(2, SK);
+	mapMemo9656.emplace(3, CY);
 
 	int iQuery = { };
 	cin >> iQuery;
