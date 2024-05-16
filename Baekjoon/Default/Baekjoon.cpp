@@ -1,6 +1,6 @@
-﻿#include "Baekjoon_Define.h"
+﻿#include "Problem_2193.h"
 
 int main()
 {
-	CProblem_18108::Solve_Problem();
+	CProblem_2193::Solve_Problem();
 }
