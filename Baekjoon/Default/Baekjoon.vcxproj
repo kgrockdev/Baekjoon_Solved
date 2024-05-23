@@ -191,8 +191,15 @@
     <ClCompile Include="..\Private\Problem_2178.cpp" />
     <ClCompile Include="..\Private\Problem_2193.cpp" />
     <ClCompile Include="..\Private\Problem_2389.cpp" />
+    <ClCompile Include="..\Private\Problem_2407.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Private\Problem_2456.cpp" />
     <ClCompile Include="..\Private\Problem_25206.cpp" />
+    <ClCompile Include="..\Private\Problem_25372.cpp" />
     <ClCompile Include="..\Private\Problem_2579.cpp" />
     <ClCompile Include="..\Private\Problem_2596.cpp" />
     <ClCompile Include="..\Private\Problem_2606.cpp" />
@@ -275,8 +282,15 @@
     <ClInclude Include="..\Public\Problem_2178.h" />
     <ClInclude Include="..\Public\Problem_2193.h" />
     <ClInclude Include="..\Public\Problem_2389.h" />
+    <ClInclude Include="..\Public\Problem_2407.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="..\Public\Problem_2456.h" />
     <ClInclude Include="..\Public\Problem_25206.h" />
+    <ClInclude Include="..\Public\Problem_25372.h" />
     <ClInclude Include="..\Public\Problem_2579.h" />
     <ClInclude Include="..\Public\Problem_2596.h" />
     <ClInclude Include="..\Public\Problem_2606.h" />
