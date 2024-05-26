@@ -55,6 +55,9 @@
     <Filter Include="01. Solved\15000">
       <UniqueIdentifier>{4c6506d0-8e53-4f30-acbd-d41a3ac3e352}</UniqueIdentifier>
     </Filter>
+    <Filter Include="01. Solved\0000">
+      <UniqueIdentifier>{f42711b2-5974-40bd-aa21-86247982630b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Baekjoon.cpp">
@@ -92,9 +95,6 @@
     </ClCompile>
     <ClCompile Include="..\Private\Problem_7785.cpp">
       <Filter>01. Solved\7000</Filter>
-    </ClCompile>
-    <ClCompile Include="Problem_17219.cpp">
-      <Filter>01. Solved\17000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_1475.cpp">
       <Filter>01. Solved\1000</Filter>
@@ -267,6 +267,15 @@
     <ClCompile Include="..\Private\Problem_15733.cpp">
       <Filter>01. Solved\15000</Filter>
     </ClCompile>
+    <ClCompile Include="..\Private\Problem_17219.cpp">
+      <Filter>01. Solved\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_0000.cpp">
+      <Filter>01. Solved\0000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_11659.cpp">
+      <Filter>01. Solved\11000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h">
@@ -304,9 +313,6 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_7785.h">
       <Filter>01. Solved\7000</Filter>
-    </ClInclude>
-    <ClInclude Include="Problem_17219.h">
-      <Filter>01. Solved\17000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_1475.h">
       <Filter>01. Solved\1000</Filter>
@@ -478,6 +484,15 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_15733.h">
       <Filter>01. Solved\15000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_17219.h">
+      <Filter>01. Solved\17000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_0000.h">
+      <Filter>01. Solved\0000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_11659.h">
+      <Filter>01. Solved\11000</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

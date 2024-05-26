@@ -135,6 +135,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Private\Problem_0000.cpp" />
     <ClCompile Include="..\Private\Problem_1003.cpp" />
     <ClCompile Include="..\Private\Problem_1009.cpp" />
     <ClCompile Include="..\Private\Problem_1012.cpp" />
@@ -145,6 +146,7 @@
     <ClCompile Include="..\Private\Problem_10870.cpp" />
     <ClCompile Include="..\Private\Problem_11047.cpp" />
     <ClCompile Include="..\Private\Problem_11050.cpp" />
+    <ClCompile Include="..\Private\Problem_11659.cpp" />
     <ClCompile Include="..\Private\Problem_11724.cpp" />
     <ClCompile Include="..\Private\Problem_11726.cpp" />
     <ClCompile Include="..\Private\Problem_11727.cpp" />
@@ -184,6 +186,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\Private\Problem_17219.cpp" />
     <ClCompile Include="..\Private\Problem_17626.cpp" />
     <ClCompile Include="..\Private\Problem_1764.cpp" />
     <ClCompile Include="..\Private\Problem_1769.cpp" />
@@ -224,10 +227,10 @@
     <ClCompile Include="..\Private\Problem_9655.cpp" />
     <ClCompile Include="..\Private\Problem_9656.cpp" />
     <ClCompile Include="Baekjoon.cpp" />
-    <ClCompile Include="Problem_17219.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h" />
+    <ClInclude Include="..\Public\Problem_0000.h" />
     <ClInclude Include="..\Public\Problem_1003.h" />
     <ClInclude Include="..\Public\Problem_1009.h" />
     <ClInclude Include="..\Public\Problem_1012.h" />
@@ -238,6 +241,7 @@
     <ClInclude Include="..\Public\Problem_10870.h" />
     <ClInclude Include="..\Public\Problem_11047.h" />
     <ClInclude Include="..\Public\Problem_11050.h" />
+    <ClInclude Include="..\Public\Problem_11659.h" />
     <ClInclude Include="..\Public\Problem_11724.h" />
     <ClInclude Include="..\Public\Problem_11726.h" />
     <ClInclude Include="..\Public\Problem_11727.h" />
@@ -277,6 +281,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="..\Public\Problem_17219.h" />
     <ClInclude Include="..\Public\Problem_17626.h" />
     <ClInclude Include="..\Public\Problem_1764.h" />
     <ClInclude Include="..\Public\Problem_1769.h" />
@@ -316,7 +321,6 @@
     <ClInclude Include="..\Public\Problem_9461.h" />
     <ClInclude Include="..\Public\Problem_9655.h" />
     <ClInclude Include="..\Public\Problem_9656.h" />
-    <ClInclude Include="Problem_17219.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
