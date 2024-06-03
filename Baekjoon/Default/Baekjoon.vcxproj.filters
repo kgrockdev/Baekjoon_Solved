@@ -61,6 +61,9 @@
     <Filter Include="01. Solved\12000">
       <UniqueIdentifier>{862de590-0bbe-4226-a951-304485efa5d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="01. Solved\24000">
+      <UniqueIdentifier>{6a192f47-19b5-4e29-9b23-1629060ecd7a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Baekjoon.cpp">
@@ -321,6 +324,9 @@
     <ClCompile Include="..\Private\Problem_7576.cpp">
       <Filter>01. Solved\7000</Filter>
     </ClCompile>
+    <ClCompile Include="..\Private\Problem_24883.cpp">
+      <Filter>01. Solved\24000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h">
@@ -580,6 +586,9 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_7576.h">
       <Filter>01. Solved\7000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_24883.h">
+      <Filter>01. Solved\24000</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
