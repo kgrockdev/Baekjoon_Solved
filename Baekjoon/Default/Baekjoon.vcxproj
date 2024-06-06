@@ -177,6 +177,7 @@
     <ClCompile Include="..\Private\Problem_13699.cpp" />
     <ClCompile Include="..\Private\Problem_14495.cpp" />
     <ClCompile Include="..\Private\Problem_14501.cpp" />
+    <ClCompile Include="..\Private\Problem_14503.cpp" />
     <ClCompile Include="..\Private\Problem_1463.cpp" />
     <ClCompile Include="..\Private\Problem_1475.cpp" />
     <ClCompile Include="..\Private\Problem_14916.cpp" />
@@ -219,6 +220,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_2456.cpp" />
+    <ClCompile Include="..\Private\Problem_24603.cpp" />
     <ClCompile Include="..\Private\Problem_24883.cpp" />
     <ClCompile Include="..\Private\Problem_25206.cpp" />
     <ClCompile Include="..\Private\Problem_25372.cpp" />
@@ -232,6 +234,7 @@
     <ClCompile Include="..\Private\Problem_2775.cpp" />
     <ClCompile Include="..\Private\Problem_2776.cpp" />
     <ClCompile Include="..\Private\Problem_2930.cpp" />
+    <ClCompile Include="..\Private\Problem_3412.cpp" />
     <ClCompile Include="..\Private\Problem_4158.cpp" />
     <ClCompile Include="..\Private\Problem_4485.cpp" />
     <ClCompile Include="..\Private\Problem_4999.cpp" />
@@ -241,6 +244,7 @@
     <ClCompile Include="..\Private\Problem_7576.cpp" />
     <ClCompile Include="..\Private\Problem_7785.cpp" />
     <ClCompile Include="..\Private\Problem_8394.cpp" />
+    <ClCompile Include="..\Private\Problem_9349.cpp" />
     <ClCompile Include="..\Private\Problem_9372.cpp" />
     <ClCompile Include="..\Private\Problem_9625.cpp" />
     <ClCompile Include="..\Private\Problem_9095.cpp" />
@@ -294,6 +298,7 @@
     <ClInclude Include="..\Public\Problem_13699.h" />
     <ClInclude Include="..\Public\Problem_14495.h" />
     <ClInclude Include="..\Public\Problem_14501.h" />
+    <ClInclude Include="..\Public\Problem_14503.h" />
     <ClInclude Include="..\Public\Problem_1463.h" />
     <ClInclude Include="..\Public\Problem_1475.h" />
     <ClInclude Include="..\Public\Problem_14916.h" />
@@ -336,6 +341,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_2456.h" />
+    <ClInclude Include="..\Public\Problem_24603.h" />
     <ClInclude Include="..\Public\Problem_24883.h" />
     <ClInclude Include="..\Public\Problem_25206.h" />
     <ClInclude Include="..\Public\Problem_25372.h" />
@@ -349,6 +355,7 @@
     <ClInclude Include="..\Public\Problem_2775.h" />
     <ClInclude Include="..\Public\Problem_2776.h" />
     <ClInclude Include="..\Public\Problem_2930.h" />
+    <ClInclude Include="..\Public\Problem_3412.h" />
     <ClInclude Include="..\Public\Problem_4158.h" />
     <ClInclude Include="..\Public\Problem_4485.h" />
     <ClInclude Include="..\Public\Problem_4999.h" />
@@ -358,6 +365,7 @@
     <ClInclude Include="..\Public\Problem_7576.h" />
     <ClInclude Include="..\Public\Problem_7785.h" />
     <ClInclude Include="..\Public\Problem_8394.h" />
+    <ClInclude Include="..\Public\Problem_9349.h" />
     <ClInclude Include="..\Public\Problem_9372.h" />
     <ClInclude Include="..\Public\Problem_9625.h" />
     <ClInclude Include="..\Public\Problem_9095.h" />
