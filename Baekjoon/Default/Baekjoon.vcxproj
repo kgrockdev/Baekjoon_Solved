@@ -209,6 +209,7 @@
     <ClCompile Include="..\Private\Problem_18115.cpp" />
     <ClCompile Include="..\Private\Problem_1904.cpp" />
     <ClCompile Include="..\Private\Problem_1976.cpp" />
+    <ClCompile Include="..\Private\Problem_20040.cpp" />
     <ClCompile Include="..\Private\Problem_2096.cpp" />
     <ClCompile Include="..\Private\Problem_2167.cpp" />
     <ClCompile Include="..\Private\Problem_2178.cpp" />
@@ -331,6 +332,7 @@
     <ClInclude Include="..\Public\Problem_18115.h" />
     <ClInclude Include="..\Public\Problem_1904.h" />
     <ClInclude Include="..\Public\Problem_1976.h" />
+    <ClInclude Include="..\Public\Problem_20040.h" />
     <ClInclude Include="..\Public\Problem_2096.h" />
     <ClInclude Include="..\Public\Problem_2167.h" />
     <ClInclude Include="..\Public\Problem_2178.h" />
