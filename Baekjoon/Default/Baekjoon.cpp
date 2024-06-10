@@ -1,6 +1,6 @@
-﻿#include "Problem_1197.h"
+﻿#include "Problem_25314.h"
 
 int main()
 {
-	CProblem_1197::Solve_Problem();
+	CProblem_25314::Solve_Problem();
 }
