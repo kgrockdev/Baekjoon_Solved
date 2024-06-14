@@ -271,6 +271,7 @@
     <ClCompile Include="..\Private\Problem_9461.cpp" />
     <ClCompile Include="..\Private\Problem_9655.cpp" />
     <ClCompile Include="..\Private\Problem_9656.cpp" />
+    <ClCompile Include="..\Private\Problem_9663.cpp" />
     <ClCompile Include="Baekjoon.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -411,6 +412,7 @@
     <ClInclude Include="..\Public\Problem_9461.h" />
     <ClInclude Include="..\Public\Problem_9655.h" />
     <ClInclude Include="..\Public\Problem_9656.h" />
+    <ClInclude Include="..\Public\Problem_9663.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
