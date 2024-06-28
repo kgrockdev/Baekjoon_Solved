@@ -230,6 +230,12 @@
     <ClCompile Include="..\Private\Problem_1904.cpp" />
     <ClCompile Include="..\Private\Problem_1916.cpp" />
     <ClCompile Include="..\Private\Problem_1922.cpp" />
+    <ClCompile Include="..\Private\Problem_1967.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Private\Problem_1976.cpp" />
     <ClCompile Include="..\Private\Problem_19939.cpp" />
     <ClCompile Include="..\Private\Problem_20040.cpp" />
@@ -239,6 +245,12 @@
     <ClCompile Include="..\Private\Problem_21760.cpp" />
     <ClCompile Include="..\Private\Problem_2178.cpp" />
     <ClCompile Include="..\Private\Problem_2193.cpp" />
+    <ClCompile Include="..\Private\Problem_2293.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Private\Problem_2389.cpp" />
     <ClCompile Include="..\Private\Problem_2407.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -259,6 +271,7 @@
     <ClCompile Include="..\Private\Problem_2596.cpp" />
     <ClCompile Include="..\Private\Problem_2606.cpp" />
     <ClCompile Include="..\Private\Problem_26082.cpp" />
+    <ClCompile Include="..\Private\Problem_26209.cpp" />
     <ClCompile Include="..\Private\Problem_2630.cpp" />
     <ClCompile Include="..\Private\Problem_26711.cpp" />
     <ClCompile Include="..\Private\Problem_27433.cpp" />
@@ -341,7 +354,12 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="..\Public\Problem_1094.h" />
+    <ClInclude Include="..\Public\Problem_1094.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="..\Public\Problem_1253.h" />
     <ClInclude Include="..\Public\Problem_1260.h" />
     <ClInclude Include="..\Public\Problem_1268.h" />
@@ -396,6 +414,12 @@
     <ClInclude Include="..\Public\Problem_1904.h" />
     <ClInclude Include="..\Public\Problem_1916.h" />
     <ClInclude Include="..\Public\Problem_1922.h" />
+    <ClInclude Include="..\Public\Problem_1967.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="..\Public\Problem_1976.h" />
     <ClInclude Include="..\Public\Problem_19939.h" />
     <ClInclude Include="..\Public\Problem_20040.h" />
@@ -405,6 +429,12 @@
     <ClInclude Include="..\Public\Problem_21760.h" />
     <ClInclude Include="..\Public\Problem_2178.h" />
     <ClInclude Include="..\Public\Problem_2193.h" />
+    <ClInclude Include="..\Public\Problem_2293.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="..\Public\Problem_2389.h" />
     <ClInclude Include="..\Public\Problem_2407.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -425,6 +455,7 @@
     <ClInclude Include="..\Public\Problem_2596.h" />
     <ClInclude Include="..\Public\Problem_2606.h" />
     <ClInclude Include="..\Public\Problem_26082.h" />
+    <ClInclude Include="..\Public\Problem_26209.h" />
     <ClInclude Include="..\Public\Problem_2630.h" />
     <ClInclude Include="..\Public\Problem_26711.h" />
     <ClInclude Include="..\Public\Problem_27433.h" />
