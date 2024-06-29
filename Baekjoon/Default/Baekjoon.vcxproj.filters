@@ -52,9 +52,6 @@
     <Filter Include="01. Solved\8000">
       <UniqueIdentifier>{22864eaa-a5ab-4c0e-b9c5-55647cc56072}</UniqueIdentifier>
     </Filter>
-    <Filter Include="01. Solved\15000">
-      <UniqueIdentifier>{4c6506d0-8e53-4f30-acbd-d41a3ac3e352}</UniqueIdentifier>
-    </Filter>
     <Filter Include="01. Solved\0000">
       <UniqueIdentifier>{f42711b2-5974-40bd-aa21-86247982630b}</UniqueIdentifier>
     </Filter>
@@ -93,6 +90,9 @@
     </Filter>
     <Filter Include="01. Solved\21000">
       <UniqueIdentifier>{7b92458b-510f-472d-902d-6840ebfb9800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Solved\15000">
+      <UniqueIdentifier>{5974c25e-71e0-4e19-bd25-42af79aec362}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -273,9 +273,6 @@
     <ClCompile Include="..\Private\Problem_1904.cpp">
       <Filter>01. Solved\1000</Filter>
     </ClCompile>
-    <ClCompile Include="..\Private\Problem_15988.cpp">
-      <Filter>01. Solved\15000</Filter>
-    </ClCompile>
     <ClCompile Include="..\Private\Problem_9372.cpp">
       <Filter>01. Solved\9000</Filter>
     </ClCompile>
@@ -296,12 +293,6 @@
     </ClCompile>
     <ClCompile Include="..\Private\Problem_25372.cpp">
       <Filter>01. Solved\25000</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Private\Problem_15727.cpp">
-      <Filter>01. Solved\15000</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Private\Problem_15733.cpp">
-      <Filter>01. Solved\15000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_17219.cpp">
       <Filter>01. Solved\17000</Filter>
@@ -329,12 +320,6 @@
     </ClCompile>
     <ClCompile Include="..\Private\Problem_1068.cpp">
       <Filter>01. Solved\1000</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Private\Problem_15666.cpp">
-      <Filter>01. Solved\15000</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Private\Problem_15829.cpp">
-      <Filter>01. Solved\15000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_4485.cpp">
       <Filter>01. Solved\4000</Filter>
@@ -396,9 +381,6 @@
     <ClCompile Include="..\Private\Problem_25314.cpp">
       <Filter>01. Solved\25000</Filter>
     </ClCompile>
-    <ClCompile Include="..\Private\Problem_15686.cpp">
-      <Filter>01. Solved\15000</Filter>
-    </ClCompile>
     <ClCompile Include="..\Private\Problem_5426.cpp">
       <Filter>01. Solved\5000</Filter>
     </ClCompile>
@@ -416,9 +398,6 @@
     </ClCompile>
     <ClCompile Include="..\Private\Problem_20299.cpp">
       <Filter>01. Solved\20000</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Private\Problem_15683.cpp">
-      <Filter>01. Solved\15000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_31403.cpp">
       <Filter>01. Solved\31000</Filter>
@@ -503,6 +482,12 @@
     </ClCompile>
     <ClCompile Include="..\Private\Problem_26209.cpp">
       <Filter>01. Solved\26000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_15740.cpp">
+      <Filter>01. Solved\15000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_11931.cpp">
+      <Filter>01. Solved\11000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -683,9 +668,6 @@
     <ClInclude Include="..\Public\Problem_1904.h">
       <Filter>01. Solved\1000</Filter>
     </ClInclude>
-    <ClInclude Include="..\Public\Problem_15988.h">
-      <Filter>01. Solved\15000</Filter>
-    </ClInclude>
     <ClInclude Include="..\Public\Problem_9372.h">
       <Filter>01. Solved\9000</Filter>
     </ClInclude>
@@ -706,12 +688,6 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_25372.h">
       <Filter>01. Solved\25000</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Public\Problem_15727.h">
-      <Filter>01. Solved\15000</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Public\Problem_15733.h">
-      <Filter>01. Solved\15000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_17219.h">
       <Filter>01. Solved\17000</Filter>
@@ -739,12 +715,6 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_1068.h">
       <Filter>01. Solved\1000</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Public\Problem_15666.h">
-      <Filter>01. Solved\15000</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Public\Problem_15829.h">
-      <Filter>01. Solved\15000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_4485.h">
       <Filter>01. Solved\4000</Filter>
@@ -806,9 +776,6 @@
     <ClInclude Include="..\Public\Problem_25314.h">
       <Filter>01. Solved\25000</Filter>
     </ClInclude>
-    <ClInclude Include="..\Public\Problem_15686.h">
-      <Filter>01. Solved\15000</Filter>
-    </ClInclude>
     <ClInclude Include="..\Public\Problem_5426.h">
       <Filter>01. Solved\5000</Filter>
     </ClInclude>
@@ -826,9 +793,6 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_20299.h">
       <Filter>01. Solved\20000</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Public\Problem_15683.h">
-      <Filter>01. Solved\15000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_31403.h">
       <Filter>01. Solved\31000</Filter>
@@ -913,6 +877,12 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_26209.h">
       <Filter>01. Solved\26000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_15740.h">
+      <Filter>01. Solved\15000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_11931.h">
+      <Filter>01. Solved\11000</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
