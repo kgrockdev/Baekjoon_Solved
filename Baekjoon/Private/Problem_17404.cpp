@@ -1,4 +1,4 @@
-#include "Problem_1149.h"
+#include "Problem_17404.h"
 
 #include <cmath>
 #include <iostream>
@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int CProblem_1149::Solve_Problem()
+int CProblem_17404::Solve_Problem()
 {
     int iNum = { };
     cin >> iNum;
