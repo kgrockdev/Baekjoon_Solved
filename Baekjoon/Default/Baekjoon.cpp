@@ -1,9 +1,9 @@
 ﻿#include "Problem_0000.h"
-#include "Problem_5639.h"
+#include "Problem_7569.h"
 
 int main()
 {
-	CProblem_5639::Solve_Problem();
+	CProblem_7569::Solve_Problem();
 }
 
 /*
