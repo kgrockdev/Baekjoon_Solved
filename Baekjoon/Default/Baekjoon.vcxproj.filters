@@ -528,6 +528,12 @@
     <ClCompile Include="..\Private\Problem_15654.cpp">
       <Filter>01. Solved\15000</Filter>
     </ClCompile>
+    <ClCompile Include="..\Private\Problem_1629.cpp">
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_1991.cpp">
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h">
@@ -961,6 +967,12 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_15654.h">
       <Filter>01. Solved\15000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1629.h">
+      <Filter>01. Solved\1000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1991.h">
+      <Filter>01. Solved\1000</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
