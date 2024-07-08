@@ -157,6 +157,7 @@
     <ClCompile Include="..\Private\Problem_11047.cpp" />
     <ClCompile Include="..\Private\Problem_11050.cpp" />
     <ClCompile Include="..\Private\Problem_11053.cpp" />
+    <ClCompile Include="..\Private\Problem_11054.cpp" />
     <ClCompile Include="..\Private\Problem_1149.cpp" />
     <ClCompile Include="..\Private\Problem_11557.cpp" />
     <ClCompile Include="..\Private\Problem_11659.cpp" />
@@ -269,6 +270,7 @@
     </ClCompile>
     <ClCompile Include="..\Private\Problem_24314.cpp" />
     <ClCompile Include="..\Private\Problem_2447.cpp" />
+    <ClCompile Include="..\Private\Problem_2448.cpp" />
     <ClCompile Include="..\Private\Problem_2456.cpp" />
     <ClCompile Include="..\Private\Problem_24603.cpp" />
     <ClCompile Include="..\Private\Problem_24883.cpp" />
@@ -294,6 +296,7 @@
     <ClCompile Include="..\Private\Problem_28456.cpp" />
     <ClCompile Include="..\Private\Problem_2930.cpp" />
     <ClCompile Include="..\Private\Problem_30242.cpp" />
+    <ClCompile Include="..\Private\Problem_30805.cpp" />
     <ClCompile Include="..\Private\Problem_31403.cpp" />
     <ClCompile Include="..\Private\Problem_31429.cpp" />
     <ClCompile Include="..\Private\Problem_31430.cpp" />
@@ -324,6 +327,7 @@
     <ClCompile Include="..\Private\Problem_9655.cpp" />
     <ClCompile Include="..\Private\Problem_9656.cpp" />
     <ClCompile Include="..\Private\Problem_9663.cpp" />
+    <ClCompile Include="..\Private\Problem_9935.cpp" />
     <ClCompile Include="Baekjoon.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -350,6 +354,7 @@
     <ClInclude Include="..\Public\Problem_11047.h" />
     <ClInclude Include="..\Public\Problem_11050.h" />
     <ClInclude Include="..\Public\Problem_11053.h" />
+    <ClInclude Include="..\Public\Problem_11054.h" />
     <ClInclude Include="..\Public\Problem_1149.h" />
     <ClInclude Include="..\Public\Problem_11557.h" />
     <ClInclude Include="..\Public\Problem_11659.h" />
@@ -467,6 +472,7 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_24314.h" />
     <ClInclude Include="..\Public\Problem_2447.h" />
+    <ClInclude Include="..\Public\Problem_2448.h" />
     <ClInclude Include="..\Public\Problem_2456.h" />
     <ClInclude Include="..\Public\Problem_24603.h" />
     <ClInclude Include="..\Public\Problem_24883.h" />
@@ -492,6 +498,7 @@
     <ClInclude Include="..\Public\Problem_28456.h" />
     <ClInclude Include="..\Public\Problem_2930.h" />
     <ClInclude Include="..\Public\Problem_30242.h" />
+    <ClInclude Include="..\Public\Problem_30805.h" />
     <ClInclude Include="..\Public\Problem_31403.h" />
     <ClInclude Include="..\Public\Problem_31429.h" />
     <ClInclude Include="..\Public\Problem_31430.h" />
@@ -522,6 +529,7 @@
     <ClInclude Include="..\Public\Problem_9655.h" />
     <ClInclude Include="..\Public\Problem_9656.h" />
     <ClInclude Include="..\Public\Problem_9663.h" />
+    <ClInclude Include="..\Public\Problem_9935.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
