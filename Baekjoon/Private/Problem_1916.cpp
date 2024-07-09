@@ -10,17 +10,71 @@
 
 using namespace std;
 
-typedef struct tagNetwork1916
-{
-    int iNext = { };
-    int iWeight = { };
-} NETWORK1916;
-
 int CProblem_1916::Solve_Problem()
 {
     cin.tie(0);
     cout.tie(0);
     ios::sync_with_stdio(false);
+
+    int iNumNode = { }, iNumEdge = { };
+    cin >> iNumNode >> iNumEdge;
+
+    const int iMaxNode = 1001;
+    
+    unordered_map<int, vector<pair<int, int>>> mapNetwork; // Node, Weight, Next
+    for (int iEdge = 0; iEdge < iNumEdge; ++iEdge)
+    {
+        int iSrc = { };
+        pair<int, int> pairNetwork = { };
+        cin >> iSrc >> pairNetwork.second >> pairNetwork.first;
+
+        auto mapIter = mapNetwork.find(iSrc);
+        if (mapIter == mapNetwork.end())
+            mapNetwork.emplace(iSrc, vector<pair<int, int>>{ pairNetwork });
+        else
+            mapIter->second.push_back(pairNetwork);
+    }
+
+    int iStart = { }, iEnd = { };
+    cin >> iStart >> iEnd;
+
+    vector<int> vecDijkstra;
+    for (int iNode = 0; iNode < iNumNode + 1; ++iNode)
+        vecDijkstra.push_back(INT_MAX);
+
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pqContainer;
+    pqContainer.emplace(0, iStart);
+
+    while (pqContainer.size() > 0)
+    {
+        pair<int, int> pairSrc = pqContainer.top(); // Weight, Next (Current)
+        pqContainer.pop();
+
+        if (vecDijkstra[pairSrc.second] < pairSrc.first)
+            continue;
+
+        vecDijkstra[pairSrc.second] = pairSrc.first;
+        
+        auto mapIter = mapNetwork.find(pairSrc.second);
+        if (mapIter != mapNetwork.end())
+        {
+            for (auto& iter : mapIter->second) // Weight, Next
+            {
+                if (vecDijkstra[iter.second] > iter.first + vecDijkstra[pairSrc.second])
+                {
+                    vecDijkstra[iter.second] = iter.first + vecDijkstra[pairSrc.second];
+                    pqContainer.emplace(iter.first + vecDijkstra[pairSrc.second], iter.second);
+                }
+            }
+        }
+    }
+
+    cout << vecDijkstra[iEnd] << endl;
+
+    return 0;
+}
+
+/*
 
     int iNumNode = { }, iNumEdge = { };
     cin >> iNumNode >> iNumEdge;
@@ -73,8 +127,7 @@ int CProblem_1916::Solve_Problem()
 
     cout << vecRoute[iEnd] << endl;
 
-    return 0;
-}
+*/
 
 /*
  
