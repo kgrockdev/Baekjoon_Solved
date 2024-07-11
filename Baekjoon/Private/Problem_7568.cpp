@@ -1,68 +1,68 @@
 #include "Problem_7568.h"
 
+#include <queue>
+#include <iostream>
+#include <algorithm>
+
 using namespace std;
 
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-
-typedef struct tagPerson
+typedef struct tagInfomation
 {
+	int iIndex = { };
+	int iGrade = { };
+
 	int iWeight = { };
 	int iHeight = { };
 
-	int iGrade = { };
-	int iScore = { };
-} PERSON;
+	tagInfomation() { };
+	tagInfomation(int iInputIndex) : iIndex(iInputIndex) { }
+
+	bool operator()(tagInfomation tInfoA, tagInfomation tInfoB)
+	{
+		if (tInfoA.iWeight == tInfoB.iWeight)
+			return tInfoA.iHeight < tInfoB.iHeight;
+		else
+			return tInfoA.iWeight < tInfoB.iWeight;
+	}
+} INFO;
 
 int CProblem_7568::Solve_Problem()
 {
 	int iNum = { };
 	cin >> iNum;
 
-	vector<PERSON> vecContainer;
-	vecContainer.reserve(iNum);
+	priority_queue<INFO, vector<INFO>, INFO> pqContainer;
 
 	for (int iIndex = 0; iIndex < iNum; ++iIndex)
 	{
-		PERSON tPerson = { };
-		cin >> tPerson.iWeight >> tPerson.iHeight;
+		INFO tInfo = { iIndex };
+		cin >> tInfo.iWeight >> tInfo.iHeight;
 
+		pqContainer.emplace(tInfo);
+	}
+
+	vector<INFO> vecContainer;
+	while (pqContainer.size() > 0)
+	{
+		INFO tInfo = pqContainer.top();
+		pqContainer.pop();
+
+		int iGrade = { 1 };
 		for (auto& iter : vecContainer)
 		{
-			if (tPerson.iHeight < iter.iHeight &&
-				tPerson.iWeight < iter.iWeight)
-				iter.iScore++;
-			else if (tPerson.iHeight > iter.iHeight &&
-				tPerson.iWeight > iter.iWeight)
-				tPerson.iScore++;
+			if (iter.iWeight > tInfo.iWeight && iter.iHeight > tInfo.iHeight)
+				++iGrade;
 		}
 
-		vecContainer.push_back(tPerson);
+		tInfo.iGrade = iGrade;
+		vecContainer.push_back(tInfo);
 	}
 
-	unordered_map<int, int> mapMemo;
-	for (auto& itPerson : vecContainer)
-	{
-		auto iter = mapMemo.find(itPerson.iScore);
-		if (iter != mapMemo.end())
-			itPerson.iGrade = iter->second;
-		else
-		{
-			int iGrade = { 1 };
-			for (auto& itComp : vecContainer)
-			{
-				if (itComp.iScore > itPerson.iScore)
-					iGrade++;
-			}
+	sort(vecContainer.begin(), vecContainer.end(), [](INFO tInfoA, INFO tInfoB) { return tInfoA.iIndex < tInfoB.iIndex; });
 
-			itPerson.iScore = iGrade;
-			mapMemo.emplace(itPerson.iScore, iGrade);
-		}
-	}
-
-	for (auto& itPerson : vecContainer)
-		cout << itPerson.iGrade << " ";
+	for (auto& iter : vecContainer)
+		cout << iter.iGrade << " ";
+	cout << '\n';
 
 	return 0;
 }

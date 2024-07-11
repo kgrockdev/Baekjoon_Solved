@@ -570,6 +570,30 @@
     <ClCompile Include="..\Private\Problem_30802.cpp">
       <Filter>01. Solved\30000</Filter>
     </ClCompile>
+    <ClCompile Include="..\Private\Problem_2292.cpp">
+      <Filter>01. Solved\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_2869.cpp">
+      <Filter>01. Solved\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_28702.cpp">
+      <Filter>01. Solved\28000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_1436.cpp">
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_1676.cpp">
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_1929.cpp">
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_2108.cpp">
+      <Filter>01. Solved\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_1654.cpp">
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h">
@@ -1045,6 +1069,30 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_30802.h">
       <Filter>01. Solved\30000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_2292.h">
+      <Filter>01. Solved\2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_2869.h">
+      <Filter>01. Solved\2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_28702.h">
+      <Filter>01. Solved\28000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1436.h">
+      <Filter>01. Solved\1000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1676.h">
+      <Filter>01. Solved\1000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1929.h">
+      <Filter>01. Solved\1000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_2108.h">
+      <Filter>01. Solved\2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_1654.h">
+      <Filter>01. Solved\1000</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
