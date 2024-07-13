@@ -243,6 +243,7 @@
     <ClCompile Include="..\Private\Problem_1904.cpp" />
     <ClCompile Include="..\Private\Problem_1916.cpp" />
     <ClCompile Include="..\Private\Problem_1922.cpp" />
+    <ClCompile Include="..\Private\Problem_1927.cpp" />
     <ClCompile Include="..\Private\Problem_1929.cpp" />
     <ClCompile Include="..\Private\Problem_1967.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -323,10 +324,12 @@
     <ClCompile Include="..\Private\Problem_5339.cpp" />
     <ClCompile Include="..\Private\Problem_5341.cpp" />
     <ClCompile Include="..\Private\Problem_5426.cpp" />
+    <ClCompile Include="..\Private\Problem_5430.cpp" />
     <ClCompile Include="..\Private\Problem_5639.cpp" />
     <ClCompile Include="..\Private\Problem_7568.cpp" />
     <ClCompile Include="..\Private\Problem_7569.cpp" />
     <ClCompile Include="..\Private\Problem_7576.cpp" />
+    <ClCompile Include="..\Private\Problem_7662.cpp" />
     <ClCompile Include="..\Private\Problem_7785.cpp" />
     <ClCompile Include="..\Private\Problem_8394.cpp" />
     <ClCompile Include="..\Private\Problem_9251.cpp" />
@@ -459,6 +462,7 @@
     <ClInclude Include="..\Public\Problem_1904.h" />
     <ClInclude Include="..\Public\Problem_1916.h" />
     <ClInclude Include="..\Public\Problem_1922.h" />
+    <ClInclude Include="..\Public\Problem_1927.h" />
     <ClInclude Include="..\Public\Problem_1929.h" />
     <ClInclude Include="..\Public\Problem_1967.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -539,10 +543,12 @@
     <ClInclude Include="..\Public\Problem_5339.h" />
     <ClInclude Include="..\Public\Problem_5341.h" />
     <ClInclude Include="..\Public\Problem_5426.h" />
+    <ClInclude Include="..\Public\Problem_5430.h" />
     <ClInclude Include="..\Public\Problem_5639.h" />
     <ClInclude Include="..\Public\Problem_7568.h" />
     <ClInclude Include="..\Public\Problem_7569.h" />
     <ClInclude Include="..\Public\Problem_7576.h" />
+    <ClInclude Include="..\Public\Problem_7662.h" />
     <ClInclude Include="..\Public\Problem_7785.h" />
     <ClInclude Include="..\Public\Problem_8394.h" />
     <ClInclude Include="..\Public\Problem_9251.h" />
