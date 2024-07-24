@@ -173,6 +173,7 @@
     </ClCompile>
     <ClCompile Include="..\Private\Problem_11726.cpp" />
     <ClCompile Include="..\Private\Problem_11727.cpp" />
+    <ClCompile Include="..\Private\Problem_1193.cpp" />
     <ClCompile Include="..\Private\Problem_11931.cpp" />
     <ClCompile Include="..\Private\Problem_1197.cpp" />
     <ClCompile Include="..\Private\Problem_1236.cpp" />
@@ -398,6 +399,7 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_11726.h" />
     <ClInclude Include="..\Public\Problem_11727.h" />
+    <ClInclude Include="..\Public\Problem_1193.h" />
     <ClInclude Include="..\Public\Problem_11931.h" />
     <ClInclude Include="..\Public\Problem_1197.h" />
     <ClInclude Include="..\Public\Problem_1236.h" />
