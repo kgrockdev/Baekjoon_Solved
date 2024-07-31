@@ -667,6 +667,9 @@
       <Filter>01. Solved\2000</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_2467.cpp" />
+    <ClCompile Include="..\Private\Problem_1038.cpp">
+      <Filter>01. Solved\1000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Public\Baekjoon_Define.h">
@@ -1240,5 +1243,8 @@
       <Filter>01. Solved\2000</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_2467.h" />
+    <ClInclude Include="..\Public\Problem_1038.h">
+      <Filter>01. Solved\1000</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
