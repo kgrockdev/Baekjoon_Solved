@@ -9,7 +9,15 @@ typedef unsigned long long ULL;
 #define WALL 18000000000000000000
 #define NSEARCH 17000000000000000000
 
-vector<vector<ULL>> vecMaze;
+enum DIRECTION
+{
+    DIR_RR = 0,
+    DIR_RB = 1,
+    DIR_BB = 2,
+    DIR_NONE = 3,
+};
+
+vector<vector<ULL>> vecMaze[DIR_NONE];
 
 int CProblem_17069::Solve_Problem()
 {
@@ -31,49 +39,46 @@ int CProblem_17069::Solve_Problem()
             vecMazeSrc.push_back((iSrc == 1) ? WALL : 0);
         }
 
-        vecMaze.push_back(vecMazeSrc);
+        vecMaze[DIR_RR].push_back(vecMazeSrc);
+        vecMaze[DIR_RB].push_back(vecMazeSrc);
+        vecMaze[DIR_BB].push_back(vecMazeSrc);
     }
 
-    vecMaze[0][0] = 0;
-    vecMaze[0][1] = 1;
+    vecMaze[DIR_RR][0][0] = 0;
+    vecMaze[DIR_RR][0][1] = 1;
 
     for (int iRow = 0; iRow < iNumRowCol; ++iRow)
     {
-        for (int iCol = 0; iCol < iNumRowCol; ++iCol)
+        for (int iCol = 2; iCol < iNumRowCol; ++iCol)
         {
-            if (iRow == 0 && iCol == 0)
-                continue;
-            if (iRow == 0 && iCol == 1)
-                continue;
-            if (vecMaze[iRow][iCol] == WALL)
+            if (vecMaze[DIR_RR][iRow][iCol] == WALL)
                 continue;
 
             if (iCol > 0 &&
-                vecMaze[iRow][iCol - 1] != 0 &&
-                vecMaze[iRow][iCol - 1] != WALL)
-                vecMaze[iRow][iCol] += vecMaze[iRow][iCol - 1];
+                vecMaze[DIR_RR][iRow][iCol - 1] != WALL)
+                vecMaze[DIR_RR][iRow][iCol] += vecMaze[DIR_RR][iRow][iCol - 1] + vecMaze[DIR_RB][iRow][iCol - 1];
 
             if (iRow > 0 &&
                 iCol > 0 &&
-                vecMaze[iRow - 1][iCol - 1] != 0 &&
-                vecMaze[iRow - 1][iCol - 1] != WALL)
-                vecMaze[iRow][iCol] += vecMaze[iRow - 1][iCol - 1];
+                vecMaze[DIR_RB][iRow - 1][iCol] != WALL &&
+                vecMaze[DIR_RB][iRow][iCol - 1] != WALL &&
+                vecMaze[DIR_RB][iRow - 1][iCol - 1] != WALL)
+                vecMaze[DIR_RB][iRow][iCol] += 
+                    vecMaze[DIR_RR][iRow - 1][iCol - 1] + 
+                    vecMaze[DIR_RB][iRow - 1][iCol - 1] + 
+                    vecMaze[DIR_BB][iRow - 1][iCol - 1];
 
+            if (iRow > 0 &&
+                vecMaze[DIR_BB][iRow - 1][iCol] != WALL)
+                vecMaze[DIR_BB][iRow][iCol] += vecMaze[DIR_RB][iRow - 1][iCol] + vecMaze[DIR_BB][iRow - 1][iCol];
         }
     }
 
-    for (int iRow = 0; iRow < iNumRowCol; ++iRow)
-    {
-        for (int iCol = 0; iCol < iNumRowCol; ++iCol)
-        {
-            if (vecMaze[iRow][iCol] == WALL ||
-                vecMaze[iRow][iCol] == NSEARCH)
-                cout << "-\t" << " ";
-            else
-                cout << vecMaze[iRow][iCol] << "\t";
-        }
-        cout << '\n';
-    }
+    cout <<
+        vecMaze[DIR_RR][iNumRowCol - 1][iNumRowCol - 1] +
+        vecMaze[DIR_RB][iNumRowCol - 1][iNumRowCol - 1] +
+        vecMaze[DIR_BB][iNumRowCol - 1][iNumRowCol - 1]
+        << '\n';
 
     return 0;
 }
