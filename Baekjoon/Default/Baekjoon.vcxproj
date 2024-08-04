@@ -220,6 +220,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\Private\Problem_1541.cpp" />
+    <ClCompile Include="..\Private\Problem_15482.cpp" />
     <ClCompile Include="..\Private\Problem_15486.cpp" />
     <ClCompile Include="..\Private\Problem_1550.cpp" />
     <ClCompile Include="..\Private\Problem_15650.cpp" />
@@ -462,6 +463,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="..\Public\Problem_1541.h" />
+    <ClInclude Include="..\Public\Problem_15482.h" />
     <ClInclude Include="..\Public\Problem_15486.h" />
     <ClInclude Include="..\Public\Problem_1550.h" />
     <ClInclude Include="..\Public\Problem_15650.h" />

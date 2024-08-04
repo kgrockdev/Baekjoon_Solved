@@ -666,7 +666,6 @@
     <ClCompile Include="..\Private\Problem_2636.cpp">
       <Filter>01. Solved\2000</Filter>
     </ClCompile>
-    <ClCompile Include="..\Private\Problem_2467.cpp" />
     <ClCompile Include="..\Private\Problem_1038.cpp">
       <Filter>01. Solved\1000</Filter>
     </ClCompile>
@@ -675,6 +674,12 @@
     </ClCompile>
     <ClCompile Include="..\Private\Problem_17069.cpp">
       <Filter>01. Solved\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_2467.cpp">
+      <Filter>01. Solved\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Problem_15482.cpp">
+      <Filter>01. Solved\15000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1248,7 +1253,6 @@
     <ClInclude Include="..\Public\Problem_2636.h">
       <Filter>01. Solved\2000</Filter>
     </ClInclude>
-    <ClInclude Include="..\Public\Problem_2467.h" />
     <ClInclude Include="..\Public\Problem_1038.h">
       <Filter>01. Solved\1000</Filter>
     </ClInclude>
@@ -1257,6 +1261,12 @@
     </ClInclude>
     <ClInclude Include="..\Public\Problem_17069.h">
       <Filter>01. Solved\17000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_2467.h">
+      <Filter>01. Solved\2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Problem_15482.h">
+      <Filter>01. Solved\15000</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

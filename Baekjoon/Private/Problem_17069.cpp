@@ -74,11 +74,14 @@ int CProblem_17069::Solve_Problem()
         }
     }
 
-    cout <<
-        vecMaze[DIR_RR][iNumRowCol - 1][iNumRowCol - 1] +
-        vecMaze[DIR_RB][iNumRowCol - 1][iNumRowCol - 1] +
-        vecMaze[DIR_BB][iNumRowCol - 1][iNumRowCol - 1]
-        << '\n';
+    if (vecMaze[DIR_RR][iNumRowCol - 1][iNumRowCol - 1] == WALL)
+        cout << '0' << '\n';
+    else
+        cout <<
+            vecMaze[DIR_RR][iNumRowCol - 1][iNumRowCol - 1] +
+            vecMaze[DIR_RB][iNumRowCol - 1][iNumRowCol - 1] +
+            vecMaze[DIR_BB][iNumRowCol - 1][iNumRowCol - 1]
+            << '\n';
 
     return 0;
 }
