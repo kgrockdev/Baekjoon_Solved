@@ -1,7 +1,7 @@
 ﻿#include "Problem_0000.h"
-#include "Problem_14002.h"
+#include "Problem_1251.h"
 
 int main()
 {
-	CProblem_14002::Solve_Problem();
+	CProblem_1251::Solve_Problem();
 }

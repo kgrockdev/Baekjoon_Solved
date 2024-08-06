@@ -1,76 +1,37 @@
 #include "Problem_1251.h"
 
-using namespace std;
-
+#include <queue>
 #include <string>
 #include <iostream>
 #include <algorithm>
 
-void CProblem_1251::Solve_Problem()
+using namespace std;
+
+int CProblem_1251::Solve_Problem()
 {
-	string strTemp = { }, strWord = { }, strResWord = { };
+	string strWord = { };
 	cin >> strWord;
 
-	int iWordIdx = { -1 }, iDup = { 1 };
+	priority_queue<string, vector<string>, greater<string>> pqContainer;
 
-	for (int iSelChar = 0; iSelChar < 2; ++iSelChar)
+	for (int iSplitIdx_A = 1; iSplitIdx_A < strWord.size(); ++iSplitIdx_A)
 	{
-		strTemp = { };
-
-		for (int iIndex = 0; iIndex < strWord.length() - (2 - iSelChar); ++iIndex)
+		for (int iSplitIdx_B = iSplitIdx_A; iSplitIdx_B < strWord.size() - 1; ++iSplitIdx_B)
 		{
-			if (iIndex == 0)
-			{
-				iWordIdx = iIndex;
-				iDup = 1;
-			}
-			else
-			{
-				if (strWord[iIndex] = strWord[iWordIdx])
-				{
-					int iTempDup = { 2 };
+			string strSrc_A = strWord.substr(0, iSplitIdx_A);
+			string strSrc_B = strWord.substr(iSplitIdx_A, iSplitIdx_B - iSplitIdx_A + 1);
+			string strSrc_C = strWord.substr(iSplitIdx_B + 1);
 
-					while (iIndex < strWord.length())
-					{
-						if (strWord[iIndex + 1] == strWord[iWordIdx])
-						{
-							iIndex++;
-						}
+			reverse(strSrc_A.begin(), strSrc_A.end());
+			reverse(strSrc_B.begin(), strSrc_B.end());
+			reverse(strSrc_C.begin(), strSrc_C.end());
 
-
-						if (iIndex )
-					}
-				}
-				else
-				{
-					if (strWord[iIndex] < strWord[iWordIdx])
-						iWordIdx = iIndex;
-				}
-			}
+			string strComb = strSrc_A + strSrc_B + strSrc_C;
+			pqContainer.emplace(strComb);
 		}
-
-		reverse(strWord.begin(), strWord.end());
-		for (int iIndex = 0; iIndex <= iWordIdx; ++iIndex)
-		{
-			strTemp.push_back(strWord.back());
-			strWord.pop_back();
-		}
-		reverse(strWord.begin(), strWord.end());
-		reverse(strTemp.begin(), strTemp.end());
-
-		strResWord.append(strTemp);
 	}
 
-	strTemp = { };
+	cout << pqContainer.top() << '\n';
 
-	reverse(strWord.begin(), strWord.end());
-	while (strWord.length() > 0)
-	{
-		strTemp.push_back(strWord.back());
-		strWord.pop_back();
-	}
-	reverse(strTemp.begin(), strTemp.end());
-	strResWord.append(strTemp);
-
-	cout << strResWord << '\n';
+	return 0;
 }
